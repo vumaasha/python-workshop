@@ -1,0 +1,9 @@
+"""This script computes the factorial for a list of numbers"""
+
+import math
+
+def compute(numbers):
+    """
+    Documentation for function
+    """
+    return sum([math.factorial(n) for n in numbers])
