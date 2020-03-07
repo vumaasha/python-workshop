@@ -6,6 +6,7 @@ def fibonacci_iterative(n):
         current = previous + current
         previous = current_old
     return current
+
 def fibonacci_recursive(n):
     if n == 0 or n == 1:
         return n
